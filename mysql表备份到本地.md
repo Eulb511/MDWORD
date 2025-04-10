@@ -74,7 +74,10 @@ scp username@remote_server:/path/to/remote/file /path/to/local/directory
 mysql -u username -p -h hostname database_name < filename.sql
 ```
 
-##以下为你详细介绍在 MySQL 数据库中备份所有表的结构（不含数据），删除数据库，重新创建数据库并导入备份的具体步骤，这里会分别给出在本地 MySQL 和 Docker 中 MySQL 容器的操作方法。​
+
+
+
+## 以下为你详细介绍在 MySQL 数据库中备份所有表的结构（不含数据），删除数据库，重新创建数据库并导入备份的具体步骤，这里会分别给出在本地 MySQL 和 Docker 中 MySQL 容器的操作方法。​
 本地 MySQL 操作步骤​
 1. 备份数据库表结构（不含数据）​
 使用 mysqldump 工具备份数据库中所有表的结构，不包含数据。命令如下：​
